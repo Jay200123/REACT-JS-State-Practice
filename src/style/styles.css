@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+ body{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../images/test.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+
+ .container{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid black;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    color: aqua;
+
+ }
+
+ .form-input{
+    border-radius: 5px;
+    font-size: 20px;
+ }
+
+ .btn-form{
+
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white; /* Add text color to make it visible */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+.answer-header{
+    color: black;
+}
+
+.question-header{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.count-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.count-container h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.count-container h4{
+    margin-top: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.count-container h5{
+    padding: 5px;
+}
+
+
+.counter{
+    border-radius: 50%;
+    border: solid black 5px;
+    height: 140px;
+    width: 140px;
+    margin:90px;
+    text-decoration: underline;
+    color: aqua;
+}
+
+.count-btn{
+    
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Add text color to make it visible */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+.btn-container{
+    display: flex;
+}
