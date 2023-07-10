@@ -69,9 +69,10 @@
     border-radius: 5px;
 }
 
-.count-container h3{
+.count-container h2, h3{
     text-align: center;
     padding: 5px;
+    font-size: 15px;
 }
 
 .count-container h4{
@@ -103,7 +104,7 @@
     width: 100px;
     height: 25px;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,6 +112,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .btn-container{

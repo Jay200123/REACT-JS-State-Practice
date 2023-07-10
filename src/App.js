@@ -3,15 +3,27 @@
 
 import "./style/styles.css"
 // import Home from "./components/Home"
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
+import CounterTwo from "./components/Counter2";
+import Data from "./data/data";
 
 function App() {
+
+  const newCount = Data.map((data)=>{
+
+    return <CounterTwo {...data}/>
+
+  }) 
+
+  
+
   return (
     <div>
-
       {/* <Home/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+
+      {newCount}
     </div>
   );
 }
