@@ -2,7 +2,7 @@ import { React, useState } from "react"
 
 function CounterTwo(data){
 
-    // console.log(data)
+    console.log(data)
 
     const [count, setCount] = useState(0)
 
@@ -20,9 +20,10 @@ function CounterTwo(data){
     function minusClick(){
 
         const minus = (value)=>{
-
+            
             const result = value - 1
             return result
+
         }
 
         setCount(minus)
@@ -34,7 +35,12 @@ function CounterTwo(data){
 
     return(
         <div className="count-container">
-            <h2>{data.title}</h2>
+
+            <div className="title-container">
+                <img className="title-img" src={data.images} alt="React Logo"/>
+                <h2>{data.title}</h2>
+            </div>
+            
             <h3>{data.description}</h3>
 
             <div className="counter">
@@ -46,6 +52,7 @@ function CounterTwo(data){
                 <button className="count-btn" onClick={addClick}>+</button>
                 <button className="count-btn" onClick={minusClick}>-</button>
                 <button className="count-btn" onClick={clearClick}>clear</button>
+                
             </div>
 
         </div>

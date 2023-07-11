@@ -15,16 +15,20 @@ function App() {
 
   }) 
 
-  
+
 
   return (
+
     <div>
+
       {/* <Home/> */}
 
       {/* <Counter/> */}
 
       {newCount}
+
     </div>
+    
   );
 }
 
