@@ -7,6 +7,8 @@ import "./style/styles.css"
 // import CounterTwo from "./components/Counter2";
 // import Name from "./components/Name";
 import Names2 from "./components/Names2";
+import Students from './data/students'
+
 // import Data from "./data/data";
 
 function App() {
@@ -17,22 +19,26 @@ function App() {
 
   // }) 
 
-  const items = ['laptop','desktop','smartphones','keyboards','headphones']
+  // const items = ['laptop','desktop','smartphones','keyboards','headphones']
 
-  const newItems = items.map((items)=>{
+  // const newItems = items.map((items)=>{
 
-    return items
+  //   return items
+
+  // })
+
+  const newNames = Students.map((names)=>{
+
+    return names
 
   })
-
-
-
 
 
   return (
 
     <div>
-      <Names2 {...newItems}/>
+      <Names2 {...newNames}/>
+
       {/* <Name/> */}
 
       {/* <Home/> */}

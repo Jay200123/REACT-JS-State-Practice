@@ -138,6 +138,10 @@
     border-radius: 5px;
 }
 
+.list-container{
+    margin: 5px;
+}
+
 .text-header{
     color: aqua;
     text-decoration: underline;
