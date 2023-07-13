@@ -5,7 +5,8 @@ import "./style/styles.css"
 // import Home from "./components/Home"
 // import Counter from "./components/Counter";
 // import CounterTwo from "./components/Counter2";
-import Name from "./components/Name";
+// import Name from "./components/Name";
+import Names2 from "./components/Names2";
 // import Data from "./data/data";
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
   return (
 
     <div>
-      <Name/>
+      <Names2/>
+      {/* <Name/> */}
 
       {/* <Home/> */}
 
