@@ -6,8 +6,10 @@ import "./style/styles.css"
 // import Counter from "./components/Counter";
 // import CounterTwo from "./components/Counter2";
 // import Name from "./components/Name";
-import Names2 from "./components/Names2";
-import Students from './data/students'
+// import Names2 from "./components/Names2";
+// import Students from './data/students'
+
+import Ternary from "./components/Ternary";
 
 // import Data from "./data/data";
 
@@ -27,17 +29,20 @@ function App() {
 
   // })
 
-  const newNames = Students.map((names)=>{
+  // const newNames = Students.map((names)=>{
 
-    return names
+  //   return names
 
-  })
+  // })
 
 
   return (
 
     <div>
-      <Names2 {...newNames}/>
+      <Ternary/>
+
+
+      {/* <Names2 {...newNames}/> */}
 
       {/* <Name/> */}
 
