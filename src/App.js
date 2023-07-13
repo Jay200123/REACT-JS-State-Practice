@@ -17,12 +17,22 @@ function App() {
 
   // }) 
 
+  const items = ['laptop','desktop','smartphones','keyboards','headphones']
+
+  const newItems = items.map((items)=>{
+
+    return items
+
+  })
+
+
+
 
 
   return (
 
     <div>
-      <Names2/>
+      <Names2 {...newItems}/>
       {/* <Name/> */}
 
       {/* <Home/> */}
