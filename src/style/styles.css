@@ -138,6 +138,10 @@
     border-radius: 5px;
 }
 
+.name-container h3{
+    padding: 10px;
+}
+
 .list-container{
     margin: 5px;
 }
