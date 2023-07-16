@@ -9,7 +9,8 @@ import "./style/styles.css"
 // import Names2 from "./components/Names2";
 // import Students from './data/students'
 
-import Ternary from "./components/Ternary";
+// import Ternary from "./components/Ternary";
+import Profile from "./components/Profile";
 
 // import Data from "./data/data";
 
@@ -39,7 +40,9 @@ function App() {
   return (
 
     <div>
-      <Ternary/>
+
+      <Profile/>
+      {/* <Ternary/> */}
 
 
       {/* <Names2 {...newNames}/> */}

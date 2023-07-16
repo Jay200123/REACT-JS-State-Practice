@@ -156,3 +156,11 @@
     font-weight: 500px;
     font-size: 20px;
 }
+
+.profile-img{
+    margin: 5px;
+    max-width: 60px;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+}
