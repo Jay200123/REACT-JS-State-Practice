@@ -21,11 +21,12 @@ function Profile2(){
         setData(data=>({...data, isImage: !data.isImage}))
     }
 
+    // flipClick can be pass as a custom props into the Image component then you can use it as a value to your clickHandler events
+
     return(
         <div className="name-container">
-            <Image isFilled={data.isImage}/>
+            <Image isFilled={data.isImage} click={flipClick}/> 
             <div className="btn-container">
-                <button className="btn-form" onClick={flipClick}>FLIP</button>
             </div>
         </div>
     )

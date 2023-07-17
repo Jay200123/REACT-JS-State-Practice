@@ -11,7 +11,8 @@ import "./style/styles.css"
 
 // import Ternary from "./components/Ternary";
 // import Profile from "./components/Profile";
-import Profile2 from "./components/Profile2";
+// import Profile2 from "./components/Profile2";
+import TestComponent from "./components/Test";
 
 // import Data from "./data/data";
 
@@ -41,7 +42,8 @@ function App() {
   return (
 
     <div>
-      <Profile2/>
+      <TestComponent/>
+      {/* <Profile2/> */}
 
       {/* <Profile/> */}
       {/* <Ternary/> */}
