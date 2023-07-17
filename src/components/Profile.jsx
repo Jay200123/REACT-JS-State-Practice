@@ -4,36 +4,35 @@ import img2 from "../images/download (1).png"
 
 function Profile(){
 
-
     const student = {
         fname:"Renyel Jay",
         lname:"Sioc",
-        phone:"09308650272",
+        course:"Bachelor of Science In Information Technology",
         email:"renyel123@gmail.com",
-        isImages: true
+        isImage:true
     }
 
-    const [data, setData] = useState(student)
+    const [info, setInfo] = useState(student)
 
-    let isProfile = data.isImages ? img1 : img2
+   let isProfile = info.isImage ? img1 : img2
 
-    function toogle(){
-        
-        setData(data=>{
-            return {...data, isImages: !data.isImages}
-        })
-    }
+   function onToogle(){
+
+    setInfo(info=>{
+        return {...info, isImage:!info.isImage}
+    })
+
+   }
 
     return(
+        <div className="name-container"> 
+        <img className="profile-img" src={isProfile} onClick={onToogle} alt="Student Profile"/>
 
-        <div className="name-container">
-            <img className="profile-img" src={isProfile} onClick={toogle} alt="Student Profile"/>
-            <h3>{data.fname}</h3>
-            <h3>{data.lname}</h3>
-            <h3>{data.phone}</h3>
-            <h3>{data.email}</h3>
+            <h3>{info.fname}  {info.lname}</h3>
+            <h3>{info.course}</h3>
+            <h3>{info.email}</h3>
+
         </div>
-
     )
 
 }
