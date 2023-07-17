@@ -22,6 +22,8 @@ function Counter(){
 
 
     return(
+        
+        // component with state  wil always be first to be rendered
 
         <div className="count-container">
 

@@ -3,7 +3,7 @@
 
 import "./style/styles.css"
 // import Home from "./components/Home"
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 // import CounterTwo from "./components/Counter2";
 // import Name from "./components/Name";
 // import Names2 from "./components/Names2";
@@ -11,6 +11,7 @@ import Counter from "./components/Counter";
 
 // import Ternary from "./components/Ternary";
 // import Profile from "./components/Profile";
+import Profile2 from "./components/Profile2";
 
 // import Data from "./data/data";
 
@@ -40,6 +41,7 @@ function App() {
   return (
 
     <div>
+      <Profile2/>
 
       {/* <Profile/> */}
       {/* <Ternary/> */}
@@ -51,7 +53,7 @@ function App() {
 
       {/* <Home/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
 
       {/* {newCount} */}
 

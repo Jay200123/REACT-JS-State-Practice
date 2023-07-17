@@ -26,8 +26,6 @@ function Profile(){
 
     return(
         <div className="name-container"> 
-        <img className="profile-img" src={isProfile} onClick={onToogle} alt="Student Profile"/>
-
             <h3>{info.fname}  {info.lname}</h3>
             <h3>{info.course}</h3>
             <h3>{info.email}</h3>

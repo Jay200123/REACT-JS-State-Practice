@@ -1,6 +1,8 @@
 import React from "react";
 
 function Count(count){
+
+    console.log("Hello?")
     
     return(
         <div className="counter">
