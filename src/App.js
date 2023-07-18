@@ -13,7 +13,8 @@ import "./style/styles.css"
 // import Profile from "./components/Profile";
 // import Profile2 from "./components/Profile2";
 // import TestComponent from "./components/Test";
-import Main from "./components2/Main"
+// import Main from "./components2/Main"
+import Home from "./components2/Home"
 
 // import Data from "./data/data";
 
@@ -39,11 +40,14 @@ function App() {
 
   // })
 
+ 
 
   return (
 
+
     <div>
-      <Main/>
+      <Home/>
+      {/* <Main/> */}
       {/* <TestComponent/> */}
       {/* <Profile2/> */}
 

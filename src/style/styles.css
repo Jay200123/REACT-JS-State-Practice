@@ -169,3 +169,17 @@
 .btn-container{
     display: flex;
 }
+
+.box-container{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 2px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.box-container h1{
+    margin-top: 5px;
+}
