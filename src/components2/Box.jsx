@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 
-function Box(box){
+function Box(boxes){
 
-    const[on, setOn] = useState(box)
+    const [box, setBox] = useState(boxes)
 
-    function Click(){
-        setOn(prevOn=> ({...prevOn, on: !prevOn.on}) )
+    function boxClick(){
+        console.log("box clicked")
+        setBox(data=>({...data, on : !data.on}))
     }
 
-    const styleMode = on.on
+    const darkMode = box.on
 
-    const styles = {
-        backgroundColor: styleMode ? "#222222" : "transparent"
+    const bg = {
+        backgroundColor: darkMode ? "#222222" : "transparent"
     }
     return(
-        <div style={styles} className="box-container" key={box.id} onClick={Click}></div>
+        <div style={bg} className="box-container" key={box.id} onClick={boxClick}></div>
     )
 }
 

@@ -2,23 +2,18 @@ import { React, useState } from "react"
 import Boxes from "../data/boxes"
 import Box from "./Box"
 
-function Home(props){
+function Home(){
 
-    // console.log(props)
-    const [box, setBox] = useState(Boxes)
+    const [squares, setSquare] = useState(Boxes)
 
-
-    const newBox = box.map((square)=>{
-
-        return <Box {...square}/>
+    const newSquare = squares.map((box)=>{
+        return <Box {...box}/>
     })
-
+    
     return(
-
         <main>
-            {newBox}
+            {newSquare}
         </main>
-
     )
 }
 
