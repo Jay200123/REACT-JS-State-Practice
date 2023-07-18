@@ -32,13 +32,19 @@ const ListData = [
 
     {
         id:1,
+        task:"Buy 2 pcs of Red Bell Pepper",
+        isDo:false
+    },
+
+    {
+        id:1,
         task:"Buy 1 sachet of Oyster Sauce",
         isDo:false
     },
 
     {
         id:1,
-        task:"Buy 1 Knor Cubes Pork",
+        task:"Buy 1 Knorr Pork Cubes",
         isDo:false
     },
 
