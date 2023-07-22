@@ -16,7 +16,6 @@ export default function List(data){
     }
 
     function clickTask(){
-        // console.log("You've Just clicked me!")
         setInfo(info=>({...info, isDo : !info.isDo}))
     }
 

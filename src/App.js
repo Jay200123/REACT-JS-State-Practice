@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-// import "./style/styles.css"
+import "./style/styles.css"
 // import Home from "./components/Home"
 // import Counter from "./components/Counter";
 // import CounterTwo from "./components/Counter2";
@@ -16,8 +16,11 @@
 // import Main from "./components2/Main"
 // import Home from "./components2/Home"
 
-import "./style/list.css"
-import Home from "./List/Home"
+// import "./style/list.css"
+// import Home from "./List/Home"
+
+// Box2
+import Home from "./Main/Home"
 
 // import Data from "./data/data";
 
@@ -50,6 +53,7 @@ function App() {
 
     <div>
       <Home/>
+      {/* <Home/> */}
       {/* <Home/> */}
       {/* <Main/> */}
       {/* <TestComponent/> */}
