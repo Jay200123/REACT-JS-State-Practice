@@ -11,7 +11,7 @@ function Boxes(data){
     }
 
     return(
-        <div style={bg} className="box-container" onClick={()=>data.click(data.id)}></div>
+        <div style={bg} className="box-container" onClick={data.click}></div>
     )
 }
 

@@ -7,7 +7,9 @@ function Home(){
     const[box, setBox] = useState(Box)
 
     function toogle(id){
+
         setBox(square=>{
+
             return square.map((newSquare)=>{
 
                 return newSquare.id === id ? {...newSquare, on: !newSquare.on} : newSquare
@@ -17,7 +19,7 @@ function Home(){
 
     const newBox  = box.map((obj)=>{
 
-        return <Boxes {...obj} click={toogle}/>
+        return <Boxes {...obj} click={()=>toogle(obj.id)}/>
     })
 
     return(
