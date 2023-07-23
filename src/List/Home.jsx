@@ -6,11 +6,23 @@ import ListData from "../data/list"
 
 export default function Home(){
 
-    const[list, listData] = useState(ListData)
+    const[list, setList] = useState(ListData)
+
+    function checkToogle(id){
+        // console.log(id)
+
+        setList(prevList=>{
+            
+            return prevList.map((newList)=>{
+                
+                return newList.id === id ? {...newList, isDo: !newList.isDo} : newList
+            })
+        })
+    }
 
     const newList = list.map((lists)=>{
 
-        return <List {...lists}/>
+        return <List {...lists} click={()=>checkToogle(lists.id)}/>
 
     })
 
