@@ -7,32 +7,13 @@ function Home(){
     const[box, setBox] = useState(Box)
 
     function toogle(id){
-        
-        setBox(box=>{
+        setBox(square=>{
+            return square.map((newSquare)=>{
 
-            const newBox = []
-
-            for(let i = 0; i < box.length; i++){
-                
-                const curBox = box[i]
-
-                if(curBox.id === id){
-
-                    const updBox = {
-                        ...curBox, 
-                        on: ! curBox.on
-                    }
-
-                    newBox.push(updBox)
-                }else{
-                    newBox.push(curBox)
-                }
-            }
-
-            return newBox
+                return newSquare.id === id ? {...newSquare, on: !newSquare.on} : newSquare
+            })
         })
     }
-
 
     const newBox  = box.map((obj)=>{
 
