@@ -13,13 +13,13 @@ const ToDo = [
 
     {
         id:3,
-        task:"Create a Website as a Project Requirements in App Development",
+        task:"Create a Website for Project Requirements in App Development",
         isDo:false
     },
 
     {
         id:4,
-        task:"Create a Powerpoint presentation for Social and Professional Ethics as Project Requirements",
+        task:"Create a Powerpoint presentation for Social and Professional Ethics for Project Requirements",
         isDo:false
     }
 ]
