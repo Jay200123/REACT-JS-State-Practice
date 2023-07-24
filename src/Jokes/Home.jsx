@@ -1,6 +1,7 @@
 import { React, useState } from "react"
-import data from "../data/jokes"
 import Joke from "../Jokes/Joke"
+import Navbar from "./Navbar"
+import data from "../data/jokes"
 
 function Home(){
 
@@ -13,6 +14,7 @@ function Home(){
             return oldJokes.map((newJwk)=>{
 
                 return newJwk.id === id ? {...newJwk, isClick: !newJwk.isClick} : newJwk
+                
             })
         })
     }
@@ -23,6 +25,7 @@ function Home(){
     })
     return(
         <div>
+            <Navbar/>
             {newJokes}
         </div>
     )

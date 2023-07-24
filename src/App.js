@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+import { useState } from "react";
+
 // import "./style/styles.css"
 // import Home from "./components/Home"
 // import Counter from "./components/Counter";
@@ -52,12 +54,16 @@ function App() {
 
   // })
 
- 
+  // const[messages, setMessages] = useState(["A","B"])
+
+
 
   return (
 
 
     <div>
+
+      {/* {messages.length > 0 && <h1>You have {messages.length} unread messages</h1>} */}
       <Home/>
       {/* <Home/> */}
 
