@@ -16,7 +16,8 @@ function List3(todo){
     const msg = value ? "Done!" : "Not Yet!"
 
     const color = {
-        backgroundColor: value ? "grey" : "transparent"
+        backgroundColor: value ? "grey" : "transparent",
+        color: value ? "white" : "none"
     }
 
     return(

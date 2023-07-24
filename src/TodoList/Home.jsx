@@ -7,8 +7,6 @@ function Home(){
 
     const[todo, setTodo] = useState(Todo)
 
-    // creat two buttons 1 for showing first task and second for marking it as done or not
-
     function toogle(id){
         setTodo(oldTodo=>{
             

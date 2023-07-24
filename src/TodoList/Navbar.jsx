@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/download (2).png"
+import logo from "../images/react-icon.png"
 
 function Navbar(){
 

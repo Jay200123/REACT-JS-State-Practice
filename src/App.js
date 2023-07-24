@@ -24,11 +24,11 @@ import { useState } from "react";
 // import Home from "./List/Home"
 
 // List2 Components
-import "./style/list.css"
+// import "./style/list.css"
 // import Home from "./Jokes/Home"
 
 // To Do List Components
-import Home from "./TodoList/Home"
+// import Home from "./TodoList/Home"
 // Box2
 // import Home from "./Main/Home"
 
@@ -56,7 +56,7 @@ function App() {
 
   // })
 
-  // const[messages, setMessages] = useState(["A","B"])
+  const[messages, setMessages] = useState(["A","B"])
 
 
 
@@ -64,9 +64,8 @@ function App() {
 
 
     <div>
-
-      {/* {messages.length > 0 && <h1>You have {messages.length} unread messages</h1>} */}
-      <Home/>
+      {messages.length === 0 ?
+       <h1>Youre all caught up</h1> : <h1>You have {messages.length} unread {messages.length > 1 ? "messages" : "message" }</h1>}
       {/* <Home/> */}
 
       {/* <Main/> */}
