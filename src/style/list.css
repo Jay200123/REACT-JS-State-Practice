@@ -30,6 +30,12 @@ body{
     display: flex;
     margin: 10px;
     align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+li::marker{
+    color: aqua;
 }
 
 .list-img{
@@ -40,4 +46,35 @@ body{
 .list-h3{
     margin: 10px;
     font-size: 15px;
+}
+
+.joke-container{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.joke-container li{
+    padding: 5px;
+}
+
+.joke-container li::marker{
+    color: cyan;
+}
+
+.count-btn{
+    
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Add text color to make it visible */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }

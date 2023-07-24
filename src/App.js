@@ -16,8 +16,14 @@
 // import Main from "./components2/Main"
 // import Home from "./components2/Home"
 
+
+
+// list Components 
+// import Home from "./List/Home"
+
+// List2 Components
 import "./style/list.css"
-import Home from "./List/Home"
+import Home from "./Jokes/Home"
 
 // Box2
 // import Home from "./Main/Home"
