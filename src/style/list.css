@@ -86,3 +86,13 @@ li::marker{
     align-items: center;
     margin: 30px;
 }
+
+.form-control{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+label{
+    margin: 5px;
+}
