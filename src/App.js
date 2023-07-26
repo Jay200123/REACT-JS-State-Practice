@@ -34,6 +34,8 @@ import "./style/list.css"
 
 // import Data from "./data/data";
 
+import FormOne from "./Forms/Form1";
+
 function App() {
 
   // const newCount = Data.map((data)=>{
@@ -59,53 +61,11 @@ function App() {
   // const[messages, setMessages] = useState(["A","B"])
 
 
-  //for first name forms
-  const [name, setName] = useState({
-    fname:"",
-    lname:"",
-    course:""
-
-  })
-
-  console.log(name)
-
-  function handleClick(e){
-
-    setName(prevName=>{
-
-      return {...prevName, [e.target.name]: e.target.value}
-    })
-
-  }
-
   return (
 
 
     <div>
-      <h3>Enter Input</h3>
-
-      <label >First Name:</label>
-      <form>
-        <input type="text" placeholder="Type your First Name" className="form-control" name="fname" onChange={handleClick}/>
-      </form>
-
-      <label>Last Name:</label>
-      <form>
-        <input type="text" placeholder="Type your Last Name" className="form-control" name="lname"  onChange={handleClick}/>
-      </form>
-      
-      <label>Course & Section</label>
-      <form>
-        <input type="text" placeholder="Enter Course and Section" className="form-control" name="course"  onChange={handleClick} />
-      </form>
-
-      <div>
-        <h2>Output</h2>
-        <h3>First Name: {name.fname}</h3>
-        <h3>Last Name: {name.lname}</h3>
-        <h3>Course and Section: {name.course}</h3>
-      </div>
-
+      <FormOne/>
 
       {/* {messages.length === 0 ?
        <h1>Youre all caught up</h1> : <h1>You have {messages.length} unread {messages.length > 1 ? "messages" : "message" }</h1>} */}
