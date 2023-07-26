@@ -34,7 +34,9 @@ import "./style/list.css"
 
 // import Data from "./data/data";
 
-import FormOne from "./Forms/Form1";
+// import FormOne from "./Forms/Form1";
+// import Comments from "./Forms/Comments";
+import Main from "./Forms/Main";
 
 function App() {
 
@@ -65,7 +67,9 @@ function App() {
 
 
     <div>
-      <FormOne/>
+      <Main/>
+      {/* <Comments/> */}
+      {/* <FormOne/> */}
 
       {/* {messages.length === 0 ?
        <h1>Youre all caught up</h1> : <h1>You have {messages.length} unread {messages.length > 1 ? "messages" : "message" }</h1>} */}
