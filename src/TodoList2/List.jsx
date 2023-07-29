@@ -21,7 +21,7 @@ function List(data){
     return(
         <div className="list-container">
              <h4 style={statMsg}>{status}</h4>
-                 <h3 className="list-header">{data.subject}</h3>
+                 <h3 className="list-header">Subject: {data.subject}</h3>
 
                      <div className="status-list" style={bg}>
                          <img className="list-img" src={icon} alt="Status" onClick={data.click}/>
