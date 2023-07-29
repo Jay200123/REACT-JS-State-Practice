@@ -52,7 +52,7 @@ function FormOne(){
                 </div>
 
                 <label>Comments</label>
-                <textarea className="form-control" name="comment" value={name.comment} onChange={onClick} placeholder="put your comment" />
+                <textarea className="text-control" name="comment" value={name.comment} onChange={onClick} placeholder="put your comment" />
             </form>
 
             <div className="answer-container">

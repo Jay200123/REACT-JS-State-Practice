@@ -38,8 +38,11 @@ import { useState } from "react";
 // import Comments from "./Forms/Comments";
 // import Main from "./Forms/Main";
 
-import "./style/list2.css"
-import Main from "./TodoList2/Main"
+// import "./style/list2.css"
+// import Main from "./TodoList2/Main"
+
+import "./style/forms.css"
+import Main from "./Forms2/Main"
 
 function App() {
 
