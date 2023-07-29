@@ -24,7 +24,7 @@ import { useState } from "react";
 // import Home from "./List/Home"
 
 // List2 Components
-import "./style/list.css"
+// import "./style/list.css"
 // import Home from "./Jokes/Home"
 
 // To Do List Components
@@ -36,7 +36,10 @@ import "./style/list.css"
 
 // import FormOne from "./Forms/Form1";
 // import Comments from "./Forms/Comments";
-import Main from "./Forms/Main";
+// import Main from "./Forms/Main";
+
+import "./style/list2.css"
+import Main from "./TodoList2/Main"
 
 function App() {
 
